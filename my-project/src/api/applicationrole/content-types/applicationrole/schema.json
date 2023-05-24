@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "applicationroles",
+  "info": {
+    "singularName": "applicationrole",
+    "pluralName": "applicationroles",
+    "displayName": "applicationrole",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "displayName": {
+      "type": "string",
+      "required": true
+    },
+    "role": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
